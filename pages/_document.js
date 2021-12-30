@@ -9,7 +9,23 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en" className="dark text-gray-200 bg-gray-900 font-sans">
-        <Head />
+        <Head>
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin="true"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
+            rel="stylesheet"
+          />
+          <meta charSet="UTF-8" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />
