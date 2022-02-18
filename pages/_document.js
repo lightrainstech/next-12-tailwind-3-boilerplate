@@ -20,11 +20,6 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
             rel="stylesheet"
           />
-          <meta charSet="UTF-8" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-          />
         </Head>
         <body>
           <Main />
