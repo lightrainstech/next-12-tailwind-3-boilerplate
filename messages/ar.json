@@ -1,0 +1,9 @@
+{
+  "Index": {
+    "title": "الصفحة الرئيسية",
+    "description": "هذه هي الصفحة الرئيسية."
+  },
+  "LocaleSwitcher": {
+    "switchLocale": "التبديل إلى {locale}"
+  }
+}

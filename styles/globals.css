@@ -3,4 +3,9 @@
 @tailwind utilities;
 
 @layer utilities {
+  p,
+  div,
+  span {
+    @apply text-lg;
+  }
 }

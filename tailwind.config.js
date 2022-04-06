@@ -10,6 +10,9 @@ module.exports = {
     fontFamily: {
       sans: ['Oxygen', ...defaultTheme.fontFamily.sans]
     },
+    container: {
+      center: true
+    },
     extend: {}
   },
   plugins: []
